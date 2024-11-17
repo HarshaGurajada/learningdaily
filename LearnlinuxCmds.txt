@@ -67,3 +67,8 @@ Option		Long Name			Description
 -Z	 							Display security context so it fits on most displays. Displays only mode, user, group, security context and file name.
 =======
 
+dir :
+------- 
+	dir is used in windos cmd promte to get the list of directories in that path along with orther files.
+
+
