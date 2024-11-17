@@ -1,13 +1,19 @@
 
+
 echo :
------
+=======
+
+
 
 we can create the text file in the windows cmd promt by using "echo" command 
 
 		Ex: echo "what is this .md file do?" >> LearnlinuxCmds.txt
 		
 		
+
 ls : 
+=======
+
 
 	list directory contents
 
@@ -57,4 +63,5 @@ Option		Long Name			Description
 -X							 	sort alphabetically by entry extension
 -1							 	list one file per line
 -Z	 							Display security context so it fits on most displays. Displays only mode, user, group, security context and file name.
+=======
 
