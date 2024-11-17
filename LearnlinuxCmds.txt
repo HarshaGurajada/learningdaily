@@ -1,1 +1,59 @@
-"what is this .md file do?" 
+
+echo
+-----
+
+we can create the text file in the windows cmd promt by using "echo" command 
+
+		Ex: echo "what is this .md file do?" >> LearnlinuxCmds.txt
+		
+		
+ls -lrth 
+
+	list directory contents
+
+Option		Long Name			Description
+-a			–all				Lists all files including those that begin with .
+-A			–almost-all			Lists all files except . and ..
+-b			–escape				print octal escapes for nongraphic characters
+-B			–ignore-backups		does not list implied entries ending with ~
+-c	 							with -lt: sort by, and show, ctime (time of last modification of file status information) with -l: show ctime and sort by name otherwise: sort by ctime
+-C	 							list entries by columns
+-d			–directory			list directory entries instead of contents, and do not dereference symbolic links
+-D			–dired				generate output designed for Emacs in dired mode
+-f	 							do not sort
+-F			–classify			append indicator (one of */=>@|) to entries
+-g	 							Works like -l (long list) but does not display owner.
+-G			–no-group			Works like -l (long list) but does not group names.
+-h			–human-readable		when used with -l (long list), prints sizes in human readable format (e.g., 1K 234M 2G)
+
+-H			–dereference-
+			command-line		follow symbolic links listed on the command line
+			
+-i			–inode				print the index number of each file
+-I			–ignore=PATTERN		do not list implied entries matching shell PATTERN
+-k			–block-size=1K		Displays entry size in kilobytes (rounded up). Long name allows to set block size.
+-l	 							Displays entries in a long list format.
+-L			–dereference		when showing file information for a symbolic link, show information for the file the link references rather than for the link itself
+-m	 							fills the width of the terminal with a comma separated list of entries
+-n			–numeric-uid-gid	like -l (long list), but lists numeric user and group IDs instead of name
+-N			–literal			prints raw entry names (does not treat e.g. control characters special)
+-o	 							like -l, but do not list group information
+
+-p			–indicator-style=slash	appends a / indicator to directories
+
+-q			–hide-control-chars		print ? instead of non graphic characters
+-Q			–quote-name			display entries enclosed in double quotes
+-r			–reverse			reverse order while sorting
+-R			–recursive			lists all subdirectories recursively
+-s			–size				print the allocated size of each file, in blocks
+-S	 							displays entries sorted by filesize
+-t	 							sort by modification time
+-T			–tabsize=COLS		assume tab stops at each column instead of 8
+-u	 							with -lt: sort by, and show, access time. with -l: show access time and sort by name. otherwise: sort by access time
+-U	 							do not sort; list entries in directory order
+-v	 							natural sort of (version) numbers within text
+-w	 							assume screen width instead of current value
+-x	 							list entries by lines instead of by columns
+-X							 	sort alphabetically by entry extension
+-1							 	list one file per line
+-Z	 							Display security context so it fits on most displays. Displays only mode, user, group, security context and file name.
